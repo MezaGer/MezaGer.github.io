@@ -80,7 +80,7 @@ header, footer {
 /* Imported Typfaces */
 
 @font-face {
-    font-family: josefinslab;
+    font-family: "josefinslab";
     src: url(/Users/Gerardo/Documents/GitHub/MezaGer.github.io/school-site/fonts/josefinslab-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -88,7 +88,7 @@ header, footer {
 
 
 @font-face {
-    font-family: montserrat;
+    font-family: "montserrat";
     src: url(/Users/Gerardo/Documents/GitHub/MezaGer.github.io/school-site/fonts/montserrat-regular.ttf) format('truetype');
     font-weight: normal;
     font-style: normal;
@@ -98,11 +98,11 @@ header, footer {
 /* Typography Styles */
 
 html {
-    font-family: montserrat, Arial, sans-serif;
+    font-family: "montserrat", Arial, sans-serif;
 }
 
 h1 {
-    font-family: josefinslab,'Times New Roman', serif;
+    font-family: "josefinslab",'Times New Roman', serif;
     letter-spacing: .125rem;
     font-size: 3.75rem;
     margin: 1.125rem;
@@ -110,7 +110,7 @@ h1 {
 }
 
 h2 {
-    font-family: josefinslab,'Times New Roman', serif;
+    font-family: "josefinslab",'Times New Roman', serif;
     letter-spacing: .125rem;
     font-size: 1.5rem;
 }
@@ -177,20 +177,19 @@ ol {
 /* Navigation Menu */
 
 nav {
-    padding-left: 0rem;
+    padding-left: 0;
     margin-top: .25rem;
 }
 
 nav a {
+    display: inline-block;
     text-decoration: none;
     width: 100%;
     line-height: 3;
     text-align: center;
     font-size: 1.125rem;
     margin-bottom: 1.5rem;
-    border: solid;
-    border-width: .0625rem;
-    border-color: #33658A;
+    border: solid .0625rem #33658A;
 }
 
 nav a:focus,
